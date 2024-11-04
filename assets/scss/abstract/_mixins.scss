@@ -1,0 +1,8 @@
+@mixin button($bg-color:beige,$color:black,$padding:0.5rem 2rem,$border:1px solid beige,$b-radius:50px,$transition:0.25s ease){
+    background-color: $bg-color;
+    color: $color;
+    padding: $padding;
+    border: $border;
+    border-radius: $b-radius;
+    transition: $transition;
+}

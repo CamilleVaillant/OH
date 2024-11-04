@@ -1,13 +1,18 @@
+@use "../abstract/mixins" as m;
+
+
 #head{
     ul{
         display: flex;
         justify-content: center;
         li{
             margin: 2rem;
-            a{
+            .btn{
+                @include m.button;
                 color: black;
-              
-                
+            }
+            .btn:hover{
+                background-color: white;
             }
         }
     }
