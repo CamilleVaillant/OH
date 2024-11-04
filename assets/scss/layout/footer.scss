@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    .left{
+        display: flex;
+        a{
+            color: black;
+            margin-right: 1rem;
+
+        }
+    }
+    .right{
+        ul{
+            display: flex;
+            a{
+                color: black;
+                margin-right: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#search{
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            margin: 1.5rem;
+            a{
+                color: black;
+            }
+        }
+    }
+}
+
+.insert{
+    font-size: 3rem;
+    color: black;
+}
+
+
+h2{
+    margin-top: 2rem;
+}
+
+.touch{
+    font-size: 1.5rem;
+    color: grey;
+}
